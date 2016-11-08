@@ -1,7 +1,8 @@
+__author__ = 'prabh_000'
+
 import time
 import random
 from Prabhjots_libary import *
-
 
 new_page()
 
@@ -11,9 +12,9 @@ players = {}
 
 
 class Floor():
-    dificulty = random.randint(1,3)
+    dificulty = random.randint(1, 3)
     enemies = []
-    no_enemies = random.randint(0,)
+    no_enemies = random.randint(0, 5)
 
 
 class Players():
@@ -71,7 +72,6 @@ class Players():
         else:
             ui("HUGE ERROR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 
-
     def display_all_player_info(self):
         name = "Name : " + self.name
         level = "Level : " + str(self.level)
@@ -128,5 +128,5 @@ def generate_players():
     players["player3"] = player3
     players["player4"] = player4
 
-start()
 
+start()
