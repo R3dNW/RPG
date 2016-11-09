@@ -1,0 +1,10 @@
+Healing potion,This Potion heals your health by 5 hp.,hp,5
+Super healing potion,This Potion heals your health by 8 hp,hp,8
+Sword,This gives you a attack buff of 5,attack,5
+Sharp Sword.This gives you a attack buff of 8,attack,8
+Shield,This gives you a defense buff of 5,defense,5
+Strong Shield,This gives you a defense buff of 8,defense,8
+Bow,This gives you a speed buff of 5,speed,5
+Enchanted bow,This gives you a speed buff of 8,speed,8
+Wand,This gives you a luck buff of 5,luck,5
+Enchanted wand,This gives you a luck buff of 8,luck,8
