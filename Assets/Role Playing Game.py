@@ -2,8 +2,9 @@ __author__ = 'prabh_000'
 
 import time
 import random
-from Prabhjots_libary import *
+from Prabhjots_library import *
 from RPG_classes import *
+from Player import Player
 
 
 with open("ITEMS.txt", "r") as f:
@@ -21,16 +22,16 @@ new_page()
 def generate_players():
     new_page()
     ui("Make and name your Players")
-    player1 = Players()
+    player1 = Player()
     print("")
     ui("PLAYER 2")
-    player2 = Players()
+    player2 = Player()
     print("")
     ui("PLAYER 3")
-    player3 = Players()
+    player3 = Player()
     print("")
     ui("PLAYER 4")
-    player4 = Players()
+    player4 = Player()
     player1.display_all_player_info()
     players["player1"] = player1
     players["player2"] = player2
