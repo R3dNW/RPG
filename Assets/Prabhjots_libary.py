@@ -62,3 +62,10 @@ def ui_input(arg, border_width=5, border_symbol="="):  # this does the same thin
 
 def new_page():  # this prints lots of new lines to break up all the diffrents things that have been printed
     print("\n" * 100)
+
+def validate_num(num):
+    try:
+        num = int(num)
+        return int(num)
+    except ValueError:
+        return "False"
