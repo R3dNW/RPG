@@ -1,7 +1,8 @@
 __author__ = 'prabh_000'
 
 
-def ui(*args, border_width=5,
+def ui(*args,
+       border_width=5,
        border_symbol="="):  # this function gets what the user wants to prints and puts it into a list
     # then it send it to another function, it also gets the lenght of the biggiest word
     # and then prints that length of the symbol thyey want to print
@@ -37,7 +38,9 @@ def border(border_width, inner_width, border_symbol):  # this prints the lenght 
     print(str(border_symbol) * length)
 
 
-def lines(*args, inner_width, border_width=5,
+def lines(*args,
+          inner_width,
+          border_width=5,
           border_symbol="="):  # this prints the syblos around the text and then the text
 
     txt_lines = []
